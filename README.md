@@ -37,27 +37,25 @@ A machine learning-powered web application that identifies spam SMS messages wit
 
 ### Steps
 1. Clone repository:
-```bash
 git clone https://github.com/JitendraSrivastava12/spam-detection.git
 cd spam-detection
-Create virtual environment:
 
+2.Create virtual environment:
 bash
-Copy
 python -m venv venv
 source venv/bin/activate  # Linux/MacOS
 venv\Scripts\activate    # Windows
-Install dependencies:
+
+3. Install dependencies:
 
 bash
-Copy
 pip install -r requirements.txt
-Download NLTK data:
 
+4.Download NLTK data:
 bash
-Copy
 python -m nltk.downloader punkt wordnet omw-1.4 stopwords
-Usage 🚀
+
+<h1>Usage<h1? 🚀
 Web Application
 bash
 Copy
