@@ -1,16 +1,12 @@
-
-Copy
 # SMS Spam Classifier 🛡️
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![GitHub Stars](https://img.shields.io/github/stars/JitendraSrivastava12/spam-detection?style=social)]()
 
-**Live Demo:** [https://spam-detection-jituji.onrender.com/](https://spam-detection-jituji.onrender.com/)
+**Live Demo:** https://spam-detection-jituji.onrender.com/
 
 A machine learning-powered web application that identifies spam SMS messages with 98.2% accuracy, built with Python and Flask.
-
-![Project Interface](https://via.placeholder.com/800x450.png?text=Spam+Classifier+Web+Interface)
 
 ## Table of Contents
 - [Features](#features-)
