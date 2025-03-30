@@ -55,16 +55,14 @@ pip install -r requirements.txt
 bash
 python -m nltk.downloader punkt wordnet omw-1.4 stopwords
 
-###Usage? 🚀
-Web Application
+## Usage 🚀
+## Web Application
 bash
-Copy
 python app.py
 Visit http://localhost:5000 in your browser
 
-API Endpoint
+## Api Connection
 bash
-Copy
 curl -X POST http://localhost:5000/api/predict \
   -H "Content-Type: application/json" \
   -d '{"message":"WINNER!! You won 10 lakh rupees!"}'
@@ -77,7 +75,8 @@ Copy
   "confidence": 0.982,
   "status": 200
 }
-Tech Stack 🧰
+
+## Tech Stack 🧰
 Frontend: HTML5, CSS3, JavaScript
 
 Backend: Python, Flask
@@ -90,9 +89,8 @@ Database: SQLite (for prediction history)
 
 Deployment: Render, Gunicorn
 
-Model Architecture 🤖
+## Model Architecture 🤖
 mermaid
-Copy
 graph TD
     A[Raw Text] --> B[Text Preprocessing]
     B --> C[TF-IDF Vectorization]
@@ -100,24 +98,25 @@ graph TD
     D --> E[Prediction]
 Preprocessing Steps:
 
-Lowercasing
+1.Lowercasing
 
-Tokenization
+2.Tokenization
 
-Stopword Removal
+3.Stopword Removal
 
-Lemmatization
+4.Lemmatization
 
-Special Character Removal
+5.Special Character Removal
 
-Performance Metrics:
+## Performance Metrics
 
 Metric	Score
 Accuracy	98.2%
 Precision	98.5%
 Recall	97.8%
 F1-Score	98.1%
-API Documentation 📚
+
+API Documents 📚
 Endpoints:
 
 POST /api/predict - Classify SMS message
@@ -125,51 +124,48 @@ POST /api/predict - Classify SMS message
 GET /api/history - Get prediction history
 
 Request Format:
-
-json
-Copy
 {
   "message": "Your SMS text here"
 }
 Response Format:
 
 json
-Copy
 {
   "prediction": "spam/ham",
   "confidence": 0.000-1.000,
   "timestamp": "YYYY-MM-DD HH:MM:SS"
 }
-Deployment 🌐
+
+## Deployement 🌐
 Deployed on Render with:
 
-Web Service: Gunicorn WSGI server
+1.Web Service: Gunicorn WSGI server
 
-Runtime: Python 3.9.16
+2.Runtime: Python 3.9.16
 
-Auto-deploy: GitHub integration
+3.Auto-deploy: GitHub integration
 
-Environment Variables:
+4.Environment Variables:
 
-PYTHON_VERSION=3.9.16
+5.PYTHON_VERSION=3.9.16
 
-FLASK_ENV=production
+6.FLASK_ENV=production
 
-Contributing 🤝
-Fork the repository
+## Contributing 🤝
+1.Fork the repository
 
-Create feature branch: git checkout -b feature/new-feature
+2.Create feature branch: git checkout -b feature/new-feature
 
-Commit changes: git commit -m 'Add awesome feature'
+3.Commit changes: git commit -m 'Add awesome feature'
 
-Push to branch: git push origin feature/new-feature
+4.Push to branch: git push origin feature/new-feature
 
-Open Pull Request
+5.Open Pull Request
 
-License 📄
+## Lisence 📄
 Distributed under MIT License. See LICENSE for details.
 
-Contact 📧
+## Contact 📧
 Jitendra Srivastava
 
 GitHub: @JitendraSrivastava12
